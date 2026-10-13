@@ -17,6 +17,9 @@ int main() {
   int sum2 = 0;
   int hi2 = lab[0];
 
+  // Label for list.
+  cout << "Quiz" << endl;
+
   // Prints index and element for each item in quiz list.
   for (int i = 0; i < N; ++i) {
     cout << "[" << i << "] " << quiz[i] << endl;
@@ -33,6 +36,9 @@ int main() {
 
   cout << "Sum: " << sum1 << endl;
   cout << "High: " << hi1 << endl;
+
+  // Label for list
+  cout << "Lab" << endl;
 
   // Prints index and element of each item in lab list.
   for (int l = 0; l < N; ++l) {
